@@ -3,11 +3,11 @@ This is a skeleton-app of a multiphysics code, CMT-nek, being developed at the C
 
 Directory for all things CMTbone or CMT-Nek. This includes the latest CMTbone source codes, profiling codes, tests, documentation, profiling and other results etc. Organization is as follows:
 
-compute-only/		microkernel benchmarks for compute kernels in cmt-bone-be
-insitu/			    insitu- instrumentation for microbenchmarking of compute kernels in cmt-bone-be
-	/ctime 		    compile-time specification of application input parameters 
-	/rtime		    run-time specification of application input parameters
-mpi/			      MPI version of CMT-bone-BE with 
-	/ctime		    compile-time specification of application input parameters 
-	/rtime		    run-time specification of application input parameters
-cuda/ 			    Cuda version of CMT-bone-BE
+compute-only/		    microkernel benchmarks for compute kernels in cmt-bone-be  
+insitu/			    insitu- instrumentation for microbenchmarking of compute kernels in cmt-bone-be  
+	/ctime 		    compile-time specification of application input parameters  
+	/rtime		    run-time specification of application input parameters  
+mpi/			    MPI version of CMT-bone-BE with  
+	/ctime		    compile-time specification of application input parameters  
+	/rtime		    run-time specification of application input parameters  
+cuda/ 			    Cuda version of CMT-bone-BE  
