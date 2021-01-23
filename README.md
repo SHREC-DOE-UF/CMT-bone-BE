@@ -3,11 +3,12 @@ This is a skeleton-app of a multiphysics code, CMT-nek, being developed at the C
 
 Directory for all things CMTbone or CMT-Nek. This includes the latest CMTbone source codes, profiling codes, tests, documentation, profiling and other results etc. Organization is as follows:
 
-compute-only/		    microkernel benchmarks for compute kernels in cmt-bone-be  
-insitu/			    insitu- instrumentation for microbenchmarking of compute kernels in cmt-bone-be  
-	/ctime 		    compile-time specification of application input parameters  
-	/rtime		    run-time specification of application input parameters  
-mpi/			    MPI version of CMT-bone-BE with  
-	/ctime		    compile-time specification of application input parameters  
-	/rtime		    run-time specification of application input parameters  
-cuda/ 			    Cuda version of CMT-bone-BE  
+compute-only/ &nbsp;&nbsp;&nbsp;&nbsp; microkernel benchmarks for compute kernels in cmt-bone-be  
+insitu/	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; insitu- instrumentation for microbenchmarking of compute kernels in cmt-bone-be  
+&nbsp;&nbsp; /ctime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compile-time specification of application input parameters  
+&nbsp;&nbsp; /rtime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; run-time specification of application input parameters  
+mpi/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MPI version of CMT-bone-BE with  
+&nbsp;&nbsp; /ctime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; compile-time specification of application input parameters  
+&nbsp;&nbsp; /rtime &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; run-time specification of application input parameters  
+cuda/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cuda version of CMT-bone-BE  
+
